@@ -10,7 +10,7 @@ select.addEventListener('change', () => {
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
             <a href="https://drive.google.com/file/d/1cCBTtDcY_VchS3zmcjscT3iEsXod2hor/view?usp=share_link">
-            <img src="./book/book.jpg" class="d-block w-100" alt="...">
+            <img src="./book/himiya.jpg" class="d-block w-100" alt="...">
             </a>
             
             </div>
