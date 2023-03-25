@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+svg {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #0e4166;
+    background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
+    z-index: -1;
+}
+
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    position: fixed;
+}
+
+main .content {
+    display: block;
+    width: 100%;
+    height: 80vh;
+}
+
+.content #block-e-book {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 75vh;
+
+}
+
+#e-book {
+    width: 600px;
+    max-height: 550px;
+}
